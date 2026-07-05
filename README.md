@@ -17,3 +17,11 @@ A simple Chrome extension that exports Chrome Tab Groups into bookmark folders.
 2. Enable Developer mode
 3. Click Load unpacked
 4. Select the `src/` folder
+
+## Usage
+
+1. Open Chrome and create one or more tab groups.
+2. Click the **Group2Book** extension icon.
+3. A list of all tab groups in the current window will be displayed.
+4. Click **Export** next to the tab group you want to save.
+5. The selected tab group will be exported as a bookmark folder under **All Bookmarks**.
