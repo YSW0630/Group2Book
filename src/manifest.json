@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Export Group to Bookmarks",
+  "version": "1.0.0",
+  "description": "Export Chrome tab groups to bookmark folders.",
+
+  "permissions": [
+    "tabGroups",
+    "tabs",
+    "bookmarks"
+  ],
+
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

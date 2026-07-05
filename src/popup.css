@@ -1,0 +1,28 @@
+body {
+  width: 320px;
+  font-family: Arial, sans-serif;
+  padding: 12px;
+}
+
+h1 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin: 8px 0;
+}
+
+.group-title {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+button {
+  cursor: pointer;
+}
